@@ -23,4 +23,5 @@ typeof true; // "boolean"
 typeof undefined; // "undefined"
 typeof null; // "object" (quirk in JS)
 typeof [1, 2, 3]; // "object"
-typeof function () {}; // "function"
+typeof function () { }; // "function"
+
